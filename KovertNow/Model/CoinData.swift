@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+class CoinData: Decodable {
+    var rate: Double
+}
